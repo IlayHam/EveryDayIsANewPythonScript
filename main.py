@@ -1,6 +1,6 @@
 import os
 import datetime
-
+# ARP SPOOFER DETECTOR
 
 def arp_table_extract():
     arp_table = os.popen('arp -a').read()
